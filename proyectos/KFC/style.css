@@ -1,0 +1,48 @@
+.seleccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 22px;
+    margin: 12px;
+}
+
+#Idioma{
+    width: 500px; 
+}
+#cambioTema{
+    position: relative;
+    width: 500px; 
+
+}
+.theme-Dark{
+    background-color: black;
+    color: white;
+}
+.theme-Dark .card{
+    background-color: gray;
+}
+
+.theme-light{
+    background-color:white;
+    color: black;
+}
+.theme-light .card{
+    background-color:ghostwhite;
+}
+
+.theme-free{
+    background-color: white;
+    color: black;
+}
+
+.theme-free .card{
+    background-color: gray;
+}
+.theme-light button:hover{
+    background-color: cyan;
+    color:black
+}
+.theme-Dark button:hover{
+    background-color: aliceblue;
+    color:black
+}
