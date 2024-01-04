@@ -1,9 +1,8 @@
 h2:hover{
-    color: red;
+    color: rgb(86, 86, 240);
     text-decoration: none;
 }
 
-a {
-    color:black;
+a:hover{
     text-decoration: none;
 }
