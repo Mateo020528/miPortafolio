@@ -1,6 +1,6 @@
 body{
-    background-image: url(/assets/polar-lights-5858656_960_720.jpg);
-    background-size: 100%,100%;
+    background-image: url(../assets/polar-lights-5858656_960_720.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     align-items: center;
     justify-content: center;
