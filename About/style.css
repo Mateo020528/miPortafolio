@@ -1,0 +1,19 @@
+body{
+    background-image: url(/assets/polar-lights-5858656_960_720.jpg);
+    background-size: 100%,100%;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+    color: white;
+    font: size 20px;
+}
+.container{
+    color: white;
+    height: 100dvh;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}

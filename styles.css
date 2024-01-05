@@ -2,6 +2,10 @@ h2:hover{
     color: rgb(86, 86, 240);
     text-decoration: none;
 }
+.h2{
+    justify-content: center;
+    align-items: center;
+}
 
 a:hover{
     text-decoration: none;
@@ -24,4 +28,11 @@ body{
 ul a {
     margin-left: 20px;
     text-decoration: none;
+    color:white;
+}
+ul{
+    list-style: none;
+}
+ul a:hover{
+    color:rgb(86, 86, 240);
 }
