@@ -1,5 +1,5 @@
 const nombre = sessionStorage.getItem("nombre");
-
+const Volver = document.getElementById("Volver");
 if(nombre){
     location.href= "home.html";
 }
@@ -67,3 +67,9 @@ personas.forEach(function(persona){
 })
 
 };
+Volver.addEventListener("click",()=>{
+     let resultado =confirm("Quiere regresar al menu?");
+     if(resultado === true){
+        window.location.href = "../index.html";
+     }
+})

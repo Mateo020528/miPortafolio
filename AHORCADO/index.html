@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/index.js" defer></script>
+    <title>Juego Ahorcado - RIWI</title>
+</head>
+
+<body>
+    
+   <main id="main">
+       <h1>Juego de Ahorcado:</h1>
+       <img src="IMG/Fondo-claro-logo.webp" alt="Logo">
+       <div id="palabra"></div>
+       <input type="text" id="palabra-input" maxlength="1">
+       <button class="boton" onclick="EncontrarPalabra()">Validar Letra</button>
+       <p id="intento-left">Intentos Restantes: <span id="intento">9</span></p>
+       <p id="resultado"></p>
+       <button  class="boton" onclick="ReiniciarJuego()">Jugar Otra Vez</button><br>
+       <button id="cerrar">Volver</button> 
+    </main>
+</body>
+</html>

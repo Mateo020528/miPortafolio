@@ -9,6 +9,10 @@
 #Idioma{
     width: 500px; 
 }
+#Volver:hover{
+color: rgba(128, 128, 128, 0.473);
+
+}
 #cambioTema{
     position: relative;
     width: 500px; 

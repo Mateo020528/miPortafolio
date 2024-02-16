@@ -1,3 +1,4 @@
+const Volver = document.getElementById("Volver");
 
 //Creamos una funcion para cambiar los colores en cada click
 function cambiarTemas(){
@@ -19,4 +20,11 @@ function cambiarTemas(){
         body.classList.remove("theme-light");
     }
 }
+
+Volver.addEventListener("click",()=>{
+    let confirmar = confirm("Quieres regresar al menu?");
+    if(confirmar === true){
+        window.location.href = "../index.html";
+    }
+})
 
